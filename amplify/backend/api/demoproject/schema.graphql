@@ -1,0 +1,9 @@
+type Fieldworker @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  fwname: String
+  fwlocation: String
+  jobassgned: String
+  jobstatus: Boolean
+  jobcompletiondateandtime: AWSDateTime
+  jobiuploadmage: String
+}
